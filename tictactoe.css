@@ -1,0 +1,27 @@
+.box {
+  width: 90px;
+  height: 90px;
+  font-size: 75px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.container {
+  background-color: lemonchiffon;
+  margin: auto;
+  width: 300px;
+  /*padding-left: 37.5px;*/
+  font-weight: bold;
+}
+
+div {
+  font-size: 1.25em;
+}
+
+button {
+  background-color: lightgray;
+  color: #555555;
+  height: 40px;
+  width: 120px;
+  font-weight: bold;
+}
