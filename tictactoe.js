@@ -1,8 +1,3 @@
-// gameBoard = [
-//  [" 1 ", " 2 ", " 3 "],
-//  [" 4 ", " 5 ", " 6 "],
-//  [" 7 ", " 8 ", " 9 "]
-//];
 (function(d, w) {
   w.startNewGame = function() {
     document.getElementById("hideMe").style.display = "none";
@@ -65,7 +60,7 @@
   };
 
   w.checkForTie = function() {
-    var tie = false;
+    let tie = false;
 
     for (let i = 1; i <= 9; i++) {
       if (getBox(i) === "") {
